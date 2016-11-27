@@ -1,0 +1,127 @@
+/* Grid */
+/* Colours */
+/* Fonts */
+body {
+  font-family: "Lato", sans-serif; }
+
+* {
+  box-sizing: border-box; }
+
+.wrapper {
+  width: 100%;
+  background-color: #d3d3d3;
+  padding: 5px; }
+
+.row {
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%; }
+
+.row-or {
+  background-color: #C77507; }
+
+.row-ye {
+  background-color: #F5D04C; }
+
+.row-re {
+  background-color: #842104; }
+
+.col-1 {
+  width: 8.33333%; }
+
+.offset-1 {
+  margin-left: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.offset-2 {
+  margin-left: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 25%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+[class*='col-'] {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+  border: 1px solid #d3d3d3; }
+
+[class*='col-']:last-of-type {
+  padding-right: 0; }
+
+.float {
+  float: left; }
+
+@media screen and (max-width: 826px) {
+  .float {
+    width: 100%; } }
+.dp {
+  background-image: url("http://cdn1-www.comingsoon.net/assets/styd/assets/uploads/2016/07/Dproof4.jpg"); }
+
+.kb {
+  background-image: url("https://i.ytimg.com/vi/E84OWq6z3IQ/hqdefault.jpg"); }
+
+.h8 {
+  background-image: url("https://pmcdeadline2.files.wordpress.com/2015/12/hateful-eight2.jpg"); }
+
+.tr {
+  background-image: url("https://s3.drafthouse.com/images/made/TrueRomance5_758_426_81_s_c1.jpg"); }
+
+.jb {
+  background-image: url("http://images3.static-bluray.com/reviews/4921_1.jpg"); }
+
+.pf {
+  background-image: url("https://contentforyoublog.files.wordpress.com/2016/06/best-trailers-ever-its-got-to-be-pulp-fiction-you-know-you-want-to-watch-it-again.jpg"); }
+
+.img {
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  min-width: 200px;
+  height: 114px; }
+
+.h3 {
+  font-family: "Bungee Inline", cursive;
+  font-size: 28px;
+  margin: 0px;
+  padding-left: 5px; }
+
+.p {
+  padding: 0px 5px 0px 5px;
+  line-height: 25px; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */
